@@ -2,7 +2,7 @@ version: '2'
 
 services:
     web-node-js:
-        image: atisak/demo-nodejs:latest
+        image: piyapandocker/workshop-test:latest
         container_name: web-server
         #build: .
         ports:
